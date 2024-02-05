@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phantaso – Discord Sunucun için en iyi Bot.</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <meta property="og:title" content="Phantaso">
+    <meta name="og:description" content="Discord Sunucun için geliştirilmiş Türkçe #1 Numaralı Çok İşlevli Botu.">
+    <meta property="og:image" content="assets/img/phantaso.png">
+    <meta property="og:url" content="/">
+    <meta name="theme-color" content="#5a4fcf">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" ntegrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet"/>
+    <link rel='stylesheet' href="assets/css/style.css">
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    <script>
+        window.onload = function () {
+            twemoji.parse(document.body,
+                {folder: 'svg', ext: '.svg'}
+            );
+        }
+    </script>
+    <style>
+        img.emoji {
+            width: 1em;
+            pointer-events: none;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body class="container max-w-10xl mx-auto">
+
+<nav class="sticky w-full z-20 top-0 left-0">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="https://ardaltunel.github.io/phantaso-bot-site/" class="flex items-center">
+            <img src="assets/img/phantaso.png" draggable="false" class="h-7 mr-3" alt="IMG" style="border-radius: 25%">
+            <span class="regularTextBold text-white self-center whitespace-nowrap">Phantaso</span>
+        </a>
+        <div class="flex md:order-2">
+            <a href="https://discord.com/oauth2/authorize?client_id=1199700080177991691&permissions=8&scope=bot" target="_blank">
+                <button type="button"
+                        class="normalTextBold text-black gradientBg rounded-full px-6 py-3 text-center mr-3 md:mr-0"><i
+                        class="fa-brands fa-discord mr-2"></i> Sunucuna ekle
+                </button>
+            </a>
+            <button data-collapse-toggle="navbar-sticky"
+                    type="button"
+                    class="inline-flex items-center p-2 text-white rounded-xl md:hidden coloredBg"
+                    aria-controls="navbar-sticky"
+                    aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+            <ul class="text-white flex flex-col p-4 md:p-0 mt-4 border border-gray-800 rounded-xl md:flex-row md:space-x-8 md:mt-0 md:border-0">
+                <li>
+                    <a href="#top" class="normalText text-white whiteUnderline block py-2 pl-3 pr-6 rounded md:hover:bg-transparent md:p-0">
+                        <i class="fa-regular fa-house-blank"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="section">
+    <div class="py-8 px-4 mx-auto max-w-6xl text-center lg:py-16 mt-8">
+        <h1 class="blackText text-white mb-4 tracking-tight leading-none">Hizmet Şartları</h1>
+        <p class="regularText text-white opacity-90 mt-8 mb-8 sm:px-16 lg:px-48">
+          <p class="regularText text-white opacity-90">Lütfen bu belgeyi dikkatlice okuyun. Bu belge, Phantaso Discord botunun kullanımı için geçerli olan hizmet şartlarını belirtir.</p>
+          <br><p class="regularText text-white opacity-90">Kabul Edilen Şartlar</p>
+          <p class="regularText text-white opacity-90">Phantaso botunu kullanarak, bu hizmet şartlarını tamamen anladığınızı ve kabul ettiğinizi beyan edersiniz.</p>
+          <p class="regularText text-white opacity-90">Bu şartlar, botun kullanımı ve erişimi için geçerli olan tüm şartları içerir.</p>
+          <br><p class="regularText text-white opacity-90">Kullanım Koşulları</p>
+          <p class="regularText text-white opacity-90">Phantaso, Discord platformunun API ve hizmet şartlarına uymak üzere tasarlanmıştır.</p>
+          <p class="regularText text-white opacity-90">Botun kullanımında herhangi bir yasa dışı, zararlı veya kötü niyetli etkinlik yasaktır.</p>
+          <p class="regularText text-white opacity-90">Botun kullanımı sırasında Phantaso tarafından sağlanan bilgilerin doğruluğunu garanti etmemekteyiz.</p>
+          <br><p class="regularText text-white opacity-90">Gizlilik Politikası</p>
+          <p class="regularText text-white opacity-90">Phantaso tarafından toplanan ve işlenen kişisel bilgilerle ilgili olarak geçerli olan gizlilik politikamızı inceleyiniz.</p>
+          <br><p class="regularText text-white opacity-90">Sorumluluk Sınırlamaları</p>
+          <p class="regularText text-white opacity-90">Phantaso ve ilgili geliştiriciler, botun kullanımından kaynaklanan herhangi bir sorumluluk kabul etmez.</p>
+          <p class="regularText text-white opacity-90">Bot, geliştirilme aşamasında olduğundan, kesintiler, hatalar veya eksiklikler olabilir.</p>
+          <br>><p class="regularText text-white opacity-90">Değişiklikler ve Güncellemeler</p>
+          <p class="regularText text-white opacity-90">Phantaso hizmet şartları zaman zaman güncellenebilir. Güncellemelerden haberdar olmak için bu sayfayı düzenli olarak kontrol ediniz.</p>       
+          <br><p class="regularText text-white opacity-90">İletişim</p>
+          <p class="regularText text-white opacity-90">Gizlilik politikamızla ilgili herhangi bir sorunuz veya endişeniz varsa, lütfen ardaltunelmain@gmail.com adresine e-posta göndererek bizimle iletişime geçin.</p>
+    </div>
+</section>
+
+<footer class="mb-8">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <hr class="customHr">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="md:flex md:justify-between">
+            <div class="mb-6 md:mb-0">
+                <a href="/" class="flex items-center">
+                    <img src="assets/img/phantaso.png" draggable="false" class="h-7 mr-3" alt="IMG" style="border-radius: 25%;">
+                    <span class="regularTextBold text-white self-center whitespace-nowrap">Phantaso</span>
+                </a>
+                <br>
+                <p class="smallText text-white opacity-80 mb-1">Telif Hakkı ©
+                    <a href="https://www.ardaltunel.com"
+                       target="_blank"
+                       class="gradientUnderline">Arda Altunel
+                    </a>
+                    tarafından <br> Phantaso Bot için tasarlandı.
+                </p>
+            </div>
+            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                <div>
+                    <h2 class="regularTextIta mb-6 text-white">Bot</h2>
+                    <ul class="smallText text-white opacity-80">
+                        <li class="mb-4">
+                            <a href="https://discord.com/oauth2/authorize?client_id=1199700080177991691&permissions=8&scope=bot"
+                               target="_blank"
+                               class="gradientUnderline">
+                                Sunucuna ekle
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="gradientUnderline">Gizlilik Politikası</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="regularTextIta mb-6 text-white">Oy ver</h2>
+                    <ul class="smallText text-white opacity-80">
+                        <li class="mb-4">
+                            <a href="https://top.gg/bot/1199700080177991691" target="_blank" class="gradientUnderline">Top.gg</a>
+                        </li>
+                        <li>
+                            <a href="https://discord.bots.gg/bots/1199700080177991691" target="_blank" class="gradientUnderline">Bots.gg</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="regularTextIta mb-6 text-white">Yardım</h2>
+                    <ul class="smallText text-white opacity-80">
+                        <li class="mb-4">
+                            <a href="https://discord.gg/phantaso" target="_blank" class="gradientUnderline">Discord Sunucusu</a>
+                        </li>
+                        <li>
+                            <a href="mailto:ardaltunelmain@gmail.com" class="gradientUnderline">E-Posta Gönder</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<br>
+<br>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
+
+</html>
